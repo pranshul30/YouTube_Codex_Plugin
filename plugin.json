@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "youtube-growth-copilot",
+  "version": "1.0.0",
+  "description": "Turn raw YouTube ideas into stronger hooks, scripts, titles, thumbnails, Shorts, edits, retention insights, SEO, chapters, content plans, comment replies, viral research, and channel audits.",
+  "author": {
+    "name": "Pranshul Sharma",
+    "url": "https://github.com/pranshul30"
+  },
+  "homepage": "https://github.com/pranshul30/YouTube_Codex_Plugin",
+  "repository": "https://github.com/pranshul30/YouTube_Codex_Plugin",
+  "license": "MIT",
+  "keywords": ["youtube", "creator", "video", "scripts", "hooks", "retention", "seo", "shorts", "codex"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "YouTube Growth Copilot",
+        "shortDescription": "Scripts, hooks & retention",
+        "longDescription": "A creator-focused YouTube toolkit for ChatGPT and Codex. Score hooks, write scripts, improve title-and-thumbnail packaging, extract Shorts, inspect retention, generate chapters, plan content, triage comments, research outliers, and audit channels. Includes lightweight Python tools and never publishes on your behalf.",
+        "developerName": "Pranshul Sharma",
+        "category": "Productivity"
+      }
+    }
+  }
+}
